@@ -1,0 +1,467 @@
+* {
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container ul {
+  margin-top: 1rem;
+  width: 100%;
+  height: 40px;
+  background-color: orangered;
+  line-height: 40px;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+li a {
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  padding: 0 20px;
+}
+
+.container ul li a:hover {
+  color: green;
+}
+
+.main h1 {
+  margin-top: 7rem;
+  margin-left: 24rem;
+  font-size: 2rem;
+}
+
+.main p {
+  margin-left: 15rem;
+  line-height: 1.5;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  font-size: 1.5rem;
+}
+
+.left-side img {
+  width: 500px;
+  height: inherit;
+  position: absolute;
+  left: 50%;
+  top: 33%;
+}
+
+.left-side img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1.5rem;
+}
+
+.btn {
+  margin-left: 15rem;
+  padding: 1rem;
+  width: 10rem;
+  margin-top: 0.5rem;
+  border-radius: 0.5rem;
+  color: #fff;
+  font-size: 1rem;
+  background-image: linear-gradient(yellow, red, green);
+}
+
+/*-------------------------footer section1---------------------*/
+.footer {
+  background-color: black;
+  padding: 5rem;
+  margin-top: 12rem;
+}
+
+.col p {
+  color: #fff;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  line-height: 1.5rem;
+}
+
+.col h1 {
+  color: #fff;
+  font-size: 2rem;
+}
+
+.col2 ul {
+  list-style: none;
+  line-height: 1.4rem;
+  text-align: center;
+}
+
+.col2 h1 {
+  color: #fff;
+  margin-top: -7rem;
+}
+
+.form {
+  color: #fff;
+  text-align: right;
+  margin-top: -7rem;
+  line-height: 2rem;
+  margin-right: 9rem;
+}
+
+.form h1 {
+  margin-right: 2rem;
+}
+
+.colus {
+  text-align: right;
+  padding: 1rem;
+}
+
+.colus button {
+  margin-right: 4rem;
+  padding: 0.5rem;
+  width: 8rem;
+}
+
+.colus input {
+  padding: 0.5rem;
+}
+/*-------------------------section images--------------------------*/
+
+.main-4 h1 {
+  margin-left: 62rem;
+  margin-top: 7rem;
+  font-size: 2rem;
+}
+
+.main-4 p {
+  margin-left: 57rem;
+  line-height: 1.5;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  font-size: 1.4rem;
+}
+
+.left-side-manali img {
+  width: 500px;
+  height: inherit;
+  position: absolute;
+  top: 36%;
+  left: 20%;
+  border-radius: 1.5rem;
+}
+
+.btn1 {
+  margin-left: 57rem;
+  padding: 1rem;
+  width: 10rem;
+  margin-top: 0.5rem;
+  border-radius: 0.5rem;
+
+  color: #fff;
+  font-size: 1rem;
+  background-image: linear-gradient(yellow, red, green);
+
+}
+
+/*-------------------------footer about---------------------------------*/
+.footer-5 {
+  background-color: black;
+  padding: 5rem;
+  margin-top: 12rem;
+}
+
+.col-m4 p {
+  color: #fff;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  line-height: 1.5rem;
+}
+
+.col-m4 h1 {
+  color: #fff;
+  font-size: 2rem;
+}
+
+.col2-link ul {
+  list-style: none;
+  line-height: 1.4rem;
+  text-align: center;
+}
+
+.col2-link h1 {
+  color: #fff;
+  margin-top: -7rem;
+}
+
+.form-row {
+  color: #fff;
+  text-align: right;
+  margin-top: -9rem;
+  line-height: 2rem;
+  margin-right: 9rem;
+}
+
+.form-row h1 {
+  margin-right: 2rem;
+}
+
+.colus-flot {
+  text-align: right;
+  padding: 1rem;
+}
+
+.colus-flot button {
+  margin-right: 4rem;
+  padding: 0.5rem;
+  width: 8rem;
+}
+
+.colus-flot input {
+  padding: 0.5rem;
+}
+
+
+/*-----------------------card-----------------------------------*/
+
+.card1 img {
+  width: 10rem;
+  height: 7rem;
+}
+
+.card1 {
+  margin: 4rem;
+  padding: 1rem;
+  width: 40vh;
+  background-color: black;
+  color: #fff;
+  float: left;
+  text-align: center;
+  font-size: 1rem;
+
+  margin-left: 8.3rem;
+}
+
+/*----------------------footer-----------------------------*/
+
+.footer-8 {
+  background-color: black;
+  padding: 5rem;
+  margin-top: 50rem;
+}
+
+.col-m6 p {
+  color: #fff;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  line-height: 1.5rem;
+}
+
+.col-m6 h1 {
+  color: #fff;
+  font-size: 2rem;
+}
+
+.col3 ul {
+  list-style: none;
+  line-height: 1.4rem;
+  text-align: center;
+}
+
+.col3 h1 {
+  color: #fff;
+  margin-top: -7rem;
+}
+
+.form-colums {
+  color: #fff;
+  text-align: right;
+  margin-top: -9rem;
+  line-height: 2rem;
+  margin-right: 9rem;
+}
+
+.form-colums h1 {
+  margin-right: 2rem;
+}
+
+.colus-8 {
+  text-align: right;
+  padding: 1rem;
+}
+
+.colus-8 button {
+  margin-right: 4rem;
+  padding: 0.5rem;
+  width: 8rem;
+}
+
+.colus-8 input {
+  padding: 0.5rem;
+}
+
+
+/*---------------plan section---------------------------*/
+
+.nav{
+
+margin: 0 10rem;
+}
+.basic img{
+  width:7rem;
+  height: 7rem;
+  clip-path: circle(40% at 50% 50%);
+}
+.basic{
+
+float: left;
+padding: 6rem;
+text-align: center;
+border: 1px solid red;
+line-height: 1.5rem;
+height: 25rem;
+margin: 6rem 1.3rem; 
+}
+ .btn-2{
+
+  padding: 0.5rem;
+  width: 10rem;
+  margin-top: 0.5rem;
+  background-color: orangered;
+  color: #fff;
+  font-size: 1rem;
+ }
+
+
+/*--------------------plan footer-------------------*/
+
+.footer-fb {
+  background-color: black;
+  padding: 5rem;
+  margin-top: 50rem;
+}
+
+.col-fc p {
+  color: #fff;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  line-height: 1.5rem;
+}
+
+.col-fc h1 {
+  color: #fff;
+  font-size: 2rem;
+}
+
+.col-fd ul {
+  list-style: none;
+  line-height: 1.4rem;
+  text-align: center;
+}
+
+.col-fd h1 {
+  color: #fff;
+  margin-top: -7rem;
+}
+
+.form-fe {
+  color: #fff;
+  text-align: right;
+  margin-top: -9rem;
+  line-height: 2rem;
+  margin-right: 9rem;
+}
+
+.form-fe h1 {
+  margin-right: 2rem;
+}
+
+.colus-fg {
+  text-align: right;
+  padding: 1rem;
+}
+
+.colus-fg button {
+  margin-right: 4rem;
+  padding: 0.5rem;
+  width: 8rem;
+}
+
+.colus-fg input {
+  padding: 0.5rem;
+}
+
+
+
+
+
+
+
+/*----------------------------contact us  form----------------------------*/
+
+.form-f{
+
+
+margin: 12rem 20rem;
+min-height: 100vh;
+
+
+}
+
+.box-1{
+  font-size: 1.5rem;
+position: absolute;
+top:50%;
+left: 50%;
+list-style: none;
+line-height: 2rem;
+}
+
+ .form-f form input {
+border: none;
+border-bottom: 1px solid red;
+background: transparent;
+outline: none;
+height: 30px;
+font-size: 1.5rem;
+padding: 1.5rem;
+
+
+}
+
+form textarea{
+
+  border: none;
+  border-bottom: 1px solid red;
+  background: transparent;
+  outline: none;
+  height: 30px;
+  width: 22rem;
+  font-size: 1.5rem;
+padding: 2rem;
+
+
+
+  
+
+  }
+  .form-f form{
+width: 25rem;
+
+    border: 1px solid red;
+    border-width: 3px;
+  }
+   
+   input .btn-4{
+
+
+    border: none;
+    outline: none;
+  }
+  .btn-4{
+    padding: 1rem;
+    margin-left: 0.5rem;
+    width:10rem ;
+    font-size: 1.1rem;
+    border-radius: 1rem;
+    background-color: orangered;
+    color: #fff;
+  }
